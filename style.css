@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'OutfitVF';
+    src: url('/assets/fonts/Outfit-VariableFont_wght.ttf') format('ttf-variations');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'OutfitVF';   
+    font-weight: 300;
+}
