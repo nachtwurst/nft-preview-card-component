@@ -6,15 +6,43 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"> 
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body>
-  <h1>The quick brown fox jumps over the lazy dog.</h1>
+  <main class="main_container">
+    <div class="img_container">
+      <img class="equilibrium_img" src="assets/images/image-equilibrium.jpg" alt="A transparent cube standing on its corner" width="604" height="604">
+      <div class="cyan_square">
+        <img class="view_icon" src="assets/images/icon-view.svg">
+      </div>
+    </div>
+    <div class="h1_container">
+      <h1>Equilibrium #3429</h1>
+    </div>
+    <p>Our Equilibrium collection promotes balance and calm.</p>
 
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    <div class="price_and_timer">
+      <div class="price">
+        <img src="assets/images/icon-ethereum.svg" alt="An Ethereum icon">
+        0.041 ETH
+      </div>
+      <div class="timer">
+        <img src="assets/images/icon-clock.svg" alt="A clock icon">
+        3 days left
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="pic_and_name">
+      <img src="assets/images/image-avatar.png" alt="A user profile picture">
+      Creation of
+      <span class="name">Jules Wyvern</span>
+    </div>
+  </main>
 </body>
 </html>
